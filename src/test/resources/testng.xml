@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" CRMProject Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="Reports.ListenerClass" />
+	</listeners>
+
+
+	<test name="CRMProject Test Cases">
+		<classes>
+			<class name="com.qa.testcases.LoginTestPage"></class>
+			<class name="com.qa.testcases.HomePageTest"></class>
+			<class name="com.qa.testcases.CheckingPageTest"></class>
+			<class name="com.qa.testcases.ViewCheckingPageTest"></class>
+		</classes>
+	</test>
+</suite>

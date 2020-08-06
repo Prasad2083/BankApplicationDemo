@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="4" name="TestSuite" time="114.45" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="BankApplicationProject"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\varaprasad\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="6cfafc35b527930b"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="RegionCode" value="APJ"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\VARAPR~1\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="varaprasad"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="BankApplicationProject"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/BankApplicationProject/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OneDrive" value="C:\Users\varaprasad\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\varaprasad\AppData\Local"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="varaprasad"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\varaprasad\OneDrive"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="MVN_HOME" value="C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="platformcode" value="KV"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/BankApplicationProject/1/display/redirect"/>
+    <property name="TMP" value="C:\Users\VARAPR~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/BankApplicationProject/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-MD35P1KQ"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\varaprasad"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="COMPUTERNAME" value="LAPTOP-MD35P1KQ"/>
+    <property name="user.script" value=""/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="user.home" value="C:\Users\varaprasad"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-BankApplicationProject-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="6cfafc35b527930b"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\varaprasad"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-11.0.2/bin;C:\Program Files\Java\jdk-11.0.2/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\varaprasad\Documents\Python\Scripts\;C:\Users\varaprasad\Documents\Python\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\varaprasad\AppData\Roaming\npm;C:\Users\varaprasad\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\varaprasad\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3"/>
+    <property name="java.class.path" value="C:\Users\varaprasad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3 C:\Users\varaprasad\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\varaprasad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\varaprasad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 8761"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-11.0.2/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\varaprasad\Documents\Python\Scripts\;C:\Users\varaprasad\Documents\Python\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\varaprasad\AppData\Roaming\npm;C:\Users\varaprasad\AppData\Local\Programs\Microsoft VS Code\bin"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.2/bin"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\Users\VARAPR~1\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\varaprasad\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/BankApplicationProject/1/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\varaprasad\Documents\eclipse-workspace\CRMProject"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/BankApplicationProject/"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-MD35P1KQ"/>
+    <property name="USERDOMAIN" value="LAPTOP-MD35P1KQ"/>
+    <property name="MAVEN_HOME" value="C:\Users\varaprasad\Desktop\VaraCEGEP\Selenium_Jars\apache-maven-3.6.3"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\varaprasad\Documents\Selenium_Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\varaprasad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\varaprasad\.jenkins\workspace\BankApplicationProject@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\varaprasad\.jenkins\workspace\BankApplicationProject"/>
+    <property name="maven3.interceptor.common" value="C:\Users\varaprasad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase classname="com.qa.testcases.CheckingPageTest" name="checknewlinkpage" time="1.686"/>
+  <testcase classname="com.qa.testcases.CheckingPageTest" name="creatingaccount1" time="3.983"/>
+  <testcase classname="com.qa.testcases.CheckingPageTest" name="creatingaccount2" time="3.993"/>
+  <testcase classname="com.qa.testcases.CheckingPageTest" name="resetaccount" time="2.191"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="welcomeverify" time="10.764"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="welcomeverify" time="12.126"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="welcomeverify" time="0.633"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="verifylogo" time="0.2"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="versionverify" time="0.085"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="dropverify" time="0.154"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="verifysidetitle" time="0.065"/>
+  <testcase classname="com.qa.testcases.HomePageTest" name="verifybank" time="0.24"/>
+  <testcase classname="com.qa.testcases.SignUpPageTest" name="completeregistration" time="18.02">
+    <failure message="element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8b62b2da603b3a050153aadd8c80c3" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8b62b2da603b3a050153aadd8c80c3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+	at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+</failure>
+    <system-out>Print Data from excel[[Ljava.lang.Object;@73e4bb60
+Before navigating to: &apos;http://dbankdemo.com/login&apos;
+Navigated to:&apos;http://dbankdemo.com/login&apos;
+Trying to find Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Trying to find Element By : By.xpath: //select[@id=&quot;title&quot;]
+Found Element By : By.xpath: //select[@id=&quot;title&quot;]
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Ms.&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Ms.&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Ms.&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Ms.&quot;]]
+Trying to find Element By : By.xpath: //label[2]//*[@id=&quot;gender&quot;]
+Found Element By : By.xpath: //label[2]//*[@id=&quot;gender&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //label[2]//*[@id=&quot;gender&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //label[2]//*[@id=&quot;gender&quot;]]
+Trying to find Element By : By.id: firstName
+Found Element By : By.id: firstName
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: firstName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: firstName]
+Trying to find Element By : By.id: lastName
+Found Element By : By.id: lastName
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: lastName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: lastName]
+Trying to find Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Found Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;dob&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;dob&quot;]]
+Trying to find Element By : By.id: ssn
+Found Element By : By.id: ssn
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: ssn] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: ssn]
+Trying to find Element By : By.id: emailAddress
+Found Element By : By.id: emailAddress
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: emailAddress] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; id: emailAddress]
+Trying to find Element By : By.xpath: //*[@id=&quot;password&quot;]
+Found Element By : By.xpath: //*[@id=&quot;password&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;password&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;password&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Found Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]]
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Trying to find Element By : By.xpath: //*[@id=&quot;address&quot;]
+Found Element By : By.xpath: //*[@id=&quot;address&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (5b8b62b2da603b3a050153aadd8c80c3)] -&gt; xpath: //*[@id=&quot;address&quot;]] before any changes made
+Error Occuredorg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8b62b2da603b3a050153aadd8c80c3
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 38727
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 06, 2020 3:47:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.testcases.SignUpPageTest" name="completeregistration" time="18.106">
+    <failure message="element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ebaf2a0a5b8797349058769f284fe4d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ebaf2a0a5b8797349058769f284fe4d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+	at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+</failure>
+    <system-out>Before navigating to: &apos;http://dbankdemo.com/login&apos;
+Navigated to:&apos;http://dbankdemo.com/login&apos;
+Trying to find Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Trying to find Element By : By.xpath: //select[@id=&quot;title&quot;]
+Found Element By : By.xpath: //select[@id=&quot;title&quot;]
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Mr.&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Mr.&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Mr.&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Mr.&quot;]]
+Trying to find Element By : By.xpath: //label[1]//*[@id=&quot;gender&quot;]
+Found Element By : By.xpath: //label[1]//*[@id=&quot;gender&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //label[1]//*[@id=&quot;gender&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //label[1]//*[@id=&quot;gender&quot;]]
+Trying to find Element By : By.id: firstName
+Found Element By : By.id: firstName
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: firstName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: firstName]
+Trying to find Element By : By.id: lastName
+Found Element By : By.id: lastName
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: lastName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: lastName]
+Trying to find Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Found Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;dob&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;dob&quot;]]
+Trying to find Element By : By.id: ssn
+Found Element By : By.id: ssn
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: ssn] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: ssn]
+Trying to find Element By : By.id: emailAddress
+Found Element By : By.id: emailAddress
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: emailAddress] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; id: emailAddress]
+Trying to find Element By : By.xpath: //*[@id=&quot;password&quot;]
+Found Element By : By.xpath: //*[@id=&quot;password&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;password&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;password&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Found Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]]
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Trying to find Element By : By.xpath: //*[@id=&quot;address&quot;]
+Found Element By : By.xpath: //*[@id=&quot;address&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (0ebaf2a0a5b8797349058769f284fe4d)] -&gt; xpath: //*[@id=&quot;address&quot;]] before any changes made
+Error Occuredorg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ebaf2a0a5b8797349058769f284fe4d
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 22873
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 06, 2020 3:47:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.testcases.SignUpPageTest" name="completeregistration" time="17.583">
+    <failure message="element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9fd1e8d743bfa53c2bce23ce84cc8f6" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9fd1e8d743bfa53c2bce23ce84cc8f6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+	at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+</failure>
+    <system-out>Before navigating to: &apos;http://dbankdemo.com/login&apos;
+Navigated to:&apos;http://dbankdemo.com/login&apos;
+Trying to find Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Trying to find Element By : By.xpath: //select[@id=&quot;title&quot;]
+Found Element By : By.xpath: //select[@id=&quot;title&quot;]
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]]
+Trying to find Element By : By.xpath: //label[1]//*[@id=&quot;gender&quot;]
+Found Element By : By.xpath: //label[1]//*[@id=&quot;gender&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //label[1]//*[@id=&quot;gender&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //label[1]//*[@id=&quot;gender&quot;]]
+Trying to find Element By : By.id: firstName
+Found Element By : By.id: firstName
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: firstName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: firstName]
+Trying to find Element By : By.id: lastName
+Found Element By : By.id: lastName
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: lastName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: lastName]
+Trying to find Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Found Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;dob&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;dob&quot;]]
+Trying to find Element By : By.id: ssn
+Found Element By : By.id: ssn
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: ssn] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: ssn]
+Trying to find Element By : By.id: emailAddress
+Found Element By : By.id: emailAddress
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: emailAddress] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; id: emailAddress]
+Trying to find Element By : By.xpath: //*[@id=&quot;password&quot;]
+Found Element By : By.xpath: //*[@id=&quot;password&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;password&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;password&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Found Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]]
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Trying to find Element By : By.xpath: //*[@id=&quot;address&quot;]
+Found Element By : By.xpath: //*[@id=&quot;address&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (f9fd1e8d743bfa53c2bce23ce84cc8f6)] -&gt; xpath: //*[@id=&quot;address&quot;]] before any changes made
+Error Occuredorg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9fd1e8d743bfa53c2bce23ce84cc8f6
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 6395
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 06, 2020 3:48:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.testcases.SignUpPageTest" name="completeregistration" time="18.02">
+    <failure message="element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c74d6f753d6dc915184e4a77c892290" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c74d6f753d6dc915184e4a77c892290
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+	at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+</failure>
+    <system-out>Before navigating to: &apos;http://dbankdemo.com/login&apos;
+Navigated to:&apos;http://dbankdemo.com/login&apos;
+Trying to find Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //a[contains(text(),&apos; Sign Up Here&apos;)]]
+Trying to find Element By : By.xpath: //select[@id=&quot;title&quot;]
+Found Element By : By.xpath: //select[@id=&quot;title&quot;]
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //select[@id=&quot;title&quot;]]] -&gt; xpath: .//option[normalize-space(.) = &quot;Mrs.&quot;]]
+Trying to find Element By : By.xpath: //label[1]//*[@id=&quot;gender&quot;]
+Found Element By : By.xpath: //label[1]//*[@id=&quot;gender&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //label[1]//*[@id=&quot;gender&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //label[1]//*[@id=&quot;gender&quot;]]
+Trying to find Element By : By.id: firstName
+Found Element By : By.id: firstName
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: firstName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: firstName]
+Trying to find Element By : By.id: lastName
+Found Element By : By.id: lastName
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: lastName] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: lastName]
+Trying to find Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Found Element By : By.xpath: //*[@id=&quot;dob&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;dob&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;dob&quot;]]
+Trying to find Element By : By.id: ssn
+Found Element By : By.id: ssn
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: ssn] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: ssn]
+Trying to find Element By : By.id: emailAddress
+Found Element By : By.id: emailAddress
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: emailAddress] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; id: emailAddress]
+Trying to find Element By : By.xpath: //*[@id=&quot;password&quot;]
+Found Element By : By.xpath: //*[@id=&quot;password&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;password&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;password&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Found Element By : By.xpath: //*[@id=&quot;confirmPassword&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;confirmPassword&quot;]]
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Next&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //button[contains(text(),&apos;Next&apos;)]]
+Trying to find Element By : By.xpath: //*[@id=&quot;address&quot;]
+Found Element By : By.xpath: //*[@id=&quot;address&quot;]
+Value of the:[[ChromeDriver: chrome on WINDOWS (9c74d6f753d6dc915184e4a77c892290)] -&gt; xpath: //*[@id=&quot;address&quot;]] before any changes made
+Error Occuredorg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MD35P1KQ&apos;, ip: &apos;192.168.2.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c74d6f753d6dc915184e4a77c892290
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 37416
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 06, 2020 3:48:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.testcases.ViewCheckingPageTest" name="checkview" time="2.121"/>
+  <testcase classname="com.qa.testcases.ViewCheckingPageTest" name="toogle" time="4.48"/>
+</testsuite>

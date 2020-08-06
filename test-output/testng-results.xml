@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-06T10:58:35 GMT-04:00" name=" CRMProject Test Automation Test Suite" finished-at="2020-08-06T11:03:32 GMT-04:00" duration-ms="297471">
+    <groups>
+    </groups>
+    <test started-at="2020-08-06T10:58:35 GMT-04:00" name="CRMProject Test Cases" finished-at="2020-08-06T11:03:32 GMT-04:00" duration-ms="297471">
+      <class name="com.qa.testcases.LoginTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:58:35 GMT-04:00" name="setup" finished-at="2020-08-06T10:58:43 GMT-04:00" duration-ms="8025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titlevalidate()[pri:1, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:58:43 GMT-04:00" name="titlevalidate" finished-at="2020-08-06T10:58:43 GMT-04:00" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlevalidate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:58:43 GMT-04:00" name="teardown" finished-at="2020-08-06T10:58:43 GMT-04:00" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:58:43 GMT-04:00" name="setup" finished-at="2020-08-06T10:59:30 GMT-04:00" duration-ms="47084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signuppage()[pri:2, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:30 GMT-04:00" name="signuppage" finished-at="2020-08-06T10:59:32 GMT-04:00" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuppage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:32 GMT-04:00" name="teardown" finished-at="2020-08-06T10:59:33 GMT-04:00" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:34 GMT-04:00" name="setup" finished-at="2020-08-06T10:59:41 GMT-04:00" duration-ms="6546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completelogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:41 GMT-04:00" name="completelogin" data-provider="logindata" finished-at="2020-08-06T10:59:42 GMT-04:00" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.234456677E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1dsbjbjsmj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:42 GMT-04:00" name="teardown" finished-at="2020-08-06T10:59:43 GMT-04:00" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:43 GMT-04:00" name="setup" finished-at="2020-08-06T10:59:49 GMT-04:00" duration-ms="6631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completelogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T10:59:49 GMT-04:00" name="completelogin" data-provider="logindata" finished-at="2020-08-06T11:00:11 GMT-04:00" duration-ms="21754" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[premkaran6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varabtech@16]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Error')]"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e976d4b5d46e182451c30e62f9b299f8
+*** Element info: {Using=xpath, value=//span[contains(text(),'Error')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Error')]"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e976d4b5d46e182451c30e62f9b299f8
+*** Element info: {Using=xpath, value=//span[contains(text(),'Error')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.getText(Unknown Source)
+at com.qa.pages.LoginPage.checkingloginpage(LoginPage.java:73)
+at com.qa.testcases.LoginTestPage.completelogin(LoginTestPage.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:18 GMT-04:00" name="teardown" finished-at="2020-08-06T11:00:19 GMT-04:00" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:19 GMT-04:00" name="setup" finished-at="2020-08-06T11:00:25 GMT-04:00" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completelogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:25 GMT-04:00" name="completelogin" data-provider="logindata" finished-at="2020-08-06T11:00:27 GMT-04:00" duration-ms="1499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:27 GMT-04:00" name="teardown" finished-at="2020-08-06T11:00:28 GMT-04:00" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:28 GMT-04:00" name="setup" finished-at="2020-08-06T11:00:34 GMT-04:00" duration-ms="6552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completelogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:34 GMT-04:00" name="completelogin" data-provider="logindata" finished-at="2020-08-06T11:00:36 GMT-04:00" duration-ms="1425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginTestPage@4f6f416f]" started-at="2020-08-06T11:00:36 GMT-04:00" name="teardown" finished-at="2020-08-06T11:00:36 GMT-04:00" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.LoginTestPage -->
+      <class name="com.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:00:36 GMT-04:00" name="setup" finished-at="2020-08-06T11:00:46 GMT-04:00" duration-ms="9314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="welcomeverify(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:00:46 GMT-04:00" name="welcomeverify" data-provider="welcomedata" finished-at="2020-08-06T11:00:56 GMT-04:00" duration-ms="10298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[premkaran6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varabtech@16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Prem]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:00:56 GMT-04:00" name="teardown" finished-at="2020-08-06T11:00:56 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:00:56 GMT-04:00" name="setup" finished-at="2020-08-06T11:01:04 GMT-04:00" duration-ms="8444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="welcomeverify(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:04 GMT-04:00" name="welcomeverify" data-provider="welcomedata" finished-at="2020-08-06T11:01:14 GMT-04:00" duration-ms="9661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VaraRuby4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varabtech@18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Vararuby1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:14 GMT-04:00" name="teardown" finished-at="2020-08-06T11:01:14 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:14 GMT-04:00" name="setup" finished-at="2020-08-06T11:01:23 GMT-04:00" duration-ms="9053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="welcomeverify(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:23 GMT-04:00" name="welcomeverify" data-provider="welcomedata" finished-at="2020-08-06T11:01:24 GMT-04:00" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:24 GMT-04:00" name="teardown" finished-at="2020-08-06T11:01:24 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:24 GMT-04:00" name="setup" finished-at="2020-08-06T11:01:32 GMT-04:00" duration-ms="8573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:1, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:32 GMT-04:00" name="verifylogo" finished-at="2020-08-06T11:01:33 GMT-04:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:33 GMT-04:00" name="teardown" finished-at="2020-08-06T11:01:33 GMT-04:00" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:33 GMT-04:00" name="setup" finished-at="2020-08-06T11:01:43 GMT-04:00" duration-ms="9856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="versionverify()[pri:2, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:43 GMT-04:00" name="versionverify" finished-at="2020-08-06T11:01:43 GMT-04:00" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- versionverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:43 GMT-04:00" name="teardown" finished-at="2020-08-06T11:01:44 GMT-04:00" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:44 GMT-04:00" name="setup" finished-at="2020-08-06T11:01:53 GMT-04:00" duration-ms="8584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dropverify()[pri:3, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:53 GMT-04:00" name="dropverify" finished-at="2020-08-06T11:01:53 GMT-04:00" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:53 GMT-04:00" name="teardown" finished-at="2020-08-06T11:01:54 GMT-04:00" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:01:54 GMT-04:00" name="setup" finished-at="2020-08-06T11:02:02 GMT-04:00" duration-ms="8417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysidetitle()[pri:4, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:02:02 GMT-04:00" name="verifysidetitle" finished-at="2020-08-06T11:02:02 GMT-04:00" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysidetitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:02:02 GMT-04:00" name="teardown" finished-at="2020-08-06T11:02:03 GMT-04:00" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:02:03 GMT-04:00" name="setup" finished-at="2020-08-06T11:02:12 GMT-04:00" duration-ms="9078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybank()[pri:5, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:02:12 GMT-04:00" name="verifybank" finished-at="2020-08-06T11:02:12 GMT-04:00" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybank -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@3b8f0a79]" started-at="2020-08-06T11:02:12 GMT-04:00" name="teardown" finished-at="2020-08-06T11:02:14 GMT-04:00" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.HomePageTest -->
+      <class name="com.qa.testcases.ViewCheckingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.ViewCheckingPageTest@48793bef]" started-at="2020-08-06T11:03:07 GMT-04:00" name="setup" finished-at="2020-08-06T11:03:17 GMT-04:00" duration-ms="9745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkview()[pri:1, instance:com.qa.testcases.ViewCheckingPageTest@48793bef]" started-at="2020-08-06T11:03:17 GMT-04:00" name="checkview" finished-at="2020-08-06T11:03:19 GMT-04:00" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkview -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.ViewCheckingPageTest@48793bef]" started-at="2020-08-06T11:03:19 GMT-04:00" name="setup" finished-at="2020-08-06T11:03:28 GMT-04:00" duration-ms="9280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="toogle()[pri:2, instance:com.qa.testcases.ViewCheckingPageTest@48793bef]" started-at="2020-08-06T11:03:28 GMT-04:00" name="toogle" finished-at="2020-08-06T11:03:32 GMT-04:00" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toogle -->
+      </class> <!-- com.qa.testcases.ViewCheckingPageTest -->
+      <class name="com.qa.testcases.CheckingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:14 GMT-04:00" name="setup" finished-at="2020-08-06T11:02:23 GMT-04:00" duration-ms="9286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checknewlinkpage()[pri:1, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:23 GMT-04:00" name="checknewlinkpage" finished-at="2020-08-06T11:02:25 GMT-04:00" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknewlinkpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:25 GMT-04:00" name="teardown" finished-at="2020-08-06T11:02:26 GMT-04:00" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:26 GMT-04:00" name="setup" finished-at="2020-08-06T11:02:37 GMT-04:00" duration-ms="10163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creatingaccount1()[pri:2, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:37 GMT-04:00" name="creatingaccount1" finished-at="2020-08-06T11:02:41 GMT-04:00" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingaccount1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:41 GMT-04:00" name="teardown" finished-at="2020-08-06T11:02:41 GMT-04:00" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:41 GMT-04:00" name="setup" finished-at="2020-08-06T11:02:50 GMT-04:00" duration-ms="9262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creatingaccount2()[pri:3, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:50 GMT-04:00" name="creatingaccount2" finished-at="2020-08-06T11:02:55 GMT-04:00" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingaccount2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:55 GMT-04:00" name="teardown" finished-at="2020-08-06T11:02:55 GMT-04:00" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:02:55 GMT-04:00" name="setup" finished-at="2020-08-06T11:03:04 GMT-04:00" duration-ms="8980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="resetaccount()[pri:4, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:03:04 GMT-04:00" name="resetaccount" finished-at="2020-08-06T11:03:07 GMT-04:00" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetaccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@71e693fa]" started-at="2020-08-06T11:03:07 GMT-04:00" name="teardown" finished-at="2020-08-06T11:03:07 GMT-04:00" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.CheckingPageTest -->
+    </test> <!-- CRMProject Test Cases -->
+  </suite> <!--  CRMProject Test Automation Test Suite -->
+</testng-results>

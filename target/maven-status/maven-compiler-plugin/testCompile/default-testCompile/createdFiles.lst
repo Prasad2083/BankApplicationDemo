@@ -1,0 +1,6 @@
+com\qa\testcases\CheckingPageTest.class
+com\qa\testcases\LoginTestPage.class
+com\qa\testcases\ViewCheckingPageTest.class
+com\qa\testcases\HomePageTest.class
+Reports\ExtentTestNgReports.class
+com\qa\testcases\SignUpPageTest.class

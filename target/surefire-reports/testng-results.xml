@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="14" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-06T15:44:32 GMT-04:00" name="Command line suite" finished-at="2020-08-06T15:49:36 GMT-04:00" duration-ms="304060">
+    <groups>
+    </groups>
+    <test started-at="2020-08-06T15:44:32 GMT-04:00" name="Command line test" finished-at="2020-08-06T15:49:36 GMT-04:00" duration-ms="304060">
+      <class name="com.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:47:21 GMT-04:00" name="setup" finished-at="2020-08-06T15:47:31 GMT-04:00" duration-ms="9477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:47:31 GMT-04:00" name="completeregistration" data-provider="signupdata" finished-at="2020-08-06T15:47:49 GMT-04:00" duration-ms="17990" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ruby]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[02/13/1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VaraRuby1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[781-23-6784]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Varabtech@16]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varabtech@16]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123Street1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Montreal]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[QC]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[H3S1H1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[514-714-2082]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8b62b2da603b3a050153aadd8c80c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8b62b2da603b3a050153aadd8c80c3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeregistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:47:49 GMT-04:00" name="teardown" finished-at="2020-08-06T15:47:50 GMT-04:00" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:47:50 GMT-04:00" name="setup" finished-at="2020-08-06T15:47:58 GMT-04:00" duration-ms="8198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:47:58 GMT-04:00" name="completeregistration" data-provider="signupdata" finished-at="2020-08-06T15:48:16 GMT-04:00" duration-ms="18103" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kurra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[02/13/1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VaraRuby2@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[781-23-6785]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Varabtech@17]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varabtech@17]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123Street2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ON]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[H3S1H2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[514-714-2081]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ebaf2a0a5b8797349058769f284fe4d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ebaf2a0a5b8797349058769f284fe4d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeregistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:48:16 GMT-04:00" name="teardown" finished-at="2020-08-06T15:48:16 GMT-04:00" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:48:16 GMT-04:00" name="setup" finished-at="2020-08-06T15:48:25 GMT-04:00" duration-ms="8588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:48:25 GMT-04:00" name="completeregistration" data-provider="signupdata" finished-at="2020-08-06T15:48:43 GMT-04:00" duration-ms="17582" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vararuby]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kurra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[02/13/1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VaraRuby3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[781-23-6786]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Varabtech@18]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varabtech@18]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123Street3]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Kingston]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[QC]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[H3S1H3]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[514-714-2080]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9fd1e8d743bfa53c2bce23ce84cc8f6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9fd1e8d743bfa53c2bce23ce84cc8f6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeregistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:48:43 GMT-04:00" name="teardown" finished-at="2020-08-06T15:48:43 GMT-04:00" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:48:43 GMT-04:00" name="setup" finished-at="2020-08-06T15:48:51 GMT-04:00" duration-ms="7983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:48:51 GMT-04:00" name="completeregistration" data-provider="signupdata" finished-at="2020-08-06T15:49:09 GMT-04:00" duration-ms="18018" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vararuby1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kurra1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[02/13/1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VaraRuby4@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[781-23-6787]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Varabtech@18]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varabtech@18]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123Street4]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Kingston]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[QC]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[H3S1H3]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[514-714-2084]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c74d6f753d6dc915184e4a77c892290]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MD35P1KQ', ip: '192.168.2.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\VARAPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c74d6f753d6dc915184e4a77c892290
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at com.qa.pages.SignUpPage.Signupdetails(SignUpPage.java:91)
+at com.qa.testcases.SignUpPageTest.completeregistration(SignUpPageTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeregistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.SignUpPageTest@595b007d]" started-at="2020-08-06T15:49:09 GMT-04:00" name="teardown" finished-at="2020-08-06T15:49:10 GMT-04:00" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.SignUpPageTest -->
+      <class name="com.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:45:40 GMT-04:00" name="setup" finished-at="2020-08-06T15:45:49 GMT-04:00" duration-ms="9537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="welcomeverify(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:45:49 GMT-04:00" name="welcomeverify" data-provider="welcomedata" finished-at="2020-08-06T15:46:00 GMT-04:00" duration-ms="10762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[premkaran6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varabtech@16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Prem]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:00 GMT-04:00" name="teardown" finished-at="2020-08-06T15:46:00 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:00 GMT-04:00" name="setup" finished-at="2020-08-06T15:46:09 GMT-04:00" duration-ms="9544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="welcomeverify(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:09 GMT-04:00" name="welcomeverify" data-provider="welcomedata" finished-at="2020-08-06T15:46:22 GMT-04:00" duration-ms="12127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VaraRuby4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varabtech@18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Vararuby1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:22 GMT-04:00" name="teardown" finished-at="2020-08-06T15:46:22 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:22 GMT-04:00" name="setup" finished-at="2020-08-06T15:46:31 GMT-04:00" duration-ms="9456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="welcomeverify(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:31 GMT-04:00" name="welcomeverify" data-provider="welcomedata" finished-at="2020-08-06T15:46:32 GMT-04:00" duration-ms="633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:32 GMT-04:00" name="teardown" finished-at="2020-08-06T15:46:32 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:32 GMT-04:00" name="setup" finished-at="2020-08-06T15:46:41 GMT-04:00" duration-ms="9251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:1, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:41 GMT-04:00" name="verifylogo" finished-at="2020-08-06T15:46:41 GMT-04:00" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:41 GMT-04:00" name="teardown" finished-at="2020-08-06T15:46:42 GMT-04:00" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:42 GMT-04:00" name="setup" finished-at="2020-08-06T15:46:51 GMT-04:00" duration-ms="8847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="versionverify()[pri:2, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:51 GMT-04:00" name="versionverify" finished-at="2020-08-06T15:46:51 GMT-04:00" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- versionverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:51 GMT-04:00" name="teardown" finished-at="2020-08-06T15:46:52 GMT-04:00" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:46:52 GMT-04:00" name="setup" finished-at="2020-08-06T15:47:00 GMT-04:00" duration-ms="8715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dropverify()[pri:3, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:00 GMT-04:00" name="dropverify" finished-at="2020-08-06T15:47:00 GMT-04:00" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:00 GMT-04:00" name="teardown" finished-at="2020-08-06T15:47:01 GMT-04:00" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:01 GMT-04:00" name="setup" finished-at="2020-08-06T15:47:10 GMT-04:00" duration-ms="9245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysidetitle()[pri:4, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:10 GMT-04:00" name="verifysidetitle" finished-at="2020-08-06T15:47:10 GMT-04:00" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysidetitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:10 GMT-04:00" name="teardown" finished-at="2020-08-06T15:47:12 GMT-04:00" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:12 GMT-04:00" name="setup" finished-at="2020-08-06T15:47:20 GMT-04:00" duration-ms="8907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybank()[pri:5, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:20 GMT-04:00" name="verifybank" finished-at="2020-08-06T15:47:21 GMT-04:00" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybank -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@5158b42f]" started-at="2020-08-06T15:47:21 GMT-04:00" name="teardown" finished-at="2020-08-06T15:47:21 GMT-04:00" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.HomePageTest -->
+      <class name="com.qa.testcases.ViewCheckingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.ViewCheckingPageTest@72d1ad2e]" started-at="2020-08-06T15:49:10 GMT-04:00" name="setup" finished-at="2020-08-06T15:49:19 GMT-04:00" duration-ms="9232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkview()[pri:1, instance:com.qa.testcases.ViewCheckingPageTest@72d1ad2e]" started-at="2020-08-06T15:49:19 GMT-04:00" name="checkview" finished-at="2020-08-06T15:49:21 GMT-04:00" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkview -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.ViewCheckingPageTest@72d1ad2e]" started-at="2020-08-06T15:49:21 GMT-04:00" name="setup" finished-at="2020-08-06T15:49:31 GMT-04:00" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="toogle()[pri:2, instance:com.qa.testcases.ViewCheckingPageTest@72d1ad2e]" started-at="2020-08-06T15:49:31 GMT-04:00" name="toogle" finished-at="2020-08-06T15:49:36 GMT-04:00" duration-ms="4479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toogle -->
+      </class> <!-- com.qa.testcases.ViewCheckingPageTest -->
+      <class name="com.qa.testcases.CheckingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:44:32 GMT-04:00" name="setup" finished-at="2020-08-06T15:44:54 GMT-04:00" duration-ms="22209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checknewlinkpage()[pri:1, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:44:54 GMT-04:00" name="checknewlinkpage" finished-at="2020-08-06T15:44:56 GMT-04:00" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknewlinkpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:44:56 GMT-04:00" name="teardown" finished-at="2020-08-06T15:44:56 GMT-04:00" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:44:56 GMT-04:00" name="setup" finished-at="2020-08-06T15:45:06 GMT-04:00" duration-ms="9632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creatingaccount1()[pri:2, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:06 GMT-04:00" name="creatingaccount1" finished-at="2020-08-06T15:45:10 GMT-04:00" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingaccount1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:10 GMT-04:00" name="teardown" finished-at="2020-08-06T15:45:11 GMT-04:00" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:11 GMT-04:00" name="setup" finished-at="2020-08-06T15:45:20 GMT-04:00" duration-ms="9469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creatingaccount2()[pri:3, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:20 GMT-04:00" name="creatingaccount2" finished-at="2020-08-06T15:45:24 GMT-04:00" duration-ms="3994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingaccount2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:24 GMT-04:00" name="teardown" finished-at="2020-08-06T15:45:26 GMT-04:00" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:26 GMT-04:00" name="setup" finished-at="2020-08-06T15:45:35 GMT-04:00" duration-ms="9795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="resetaccount()[pri:4, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:35 GMT-04:00" name="resetaccount" finished-at="2020-08-06T15:45:38 GMT-04:00" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetaccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.CheckingPageTest@16293aa2]" started-at="2020-08-06T15:45:38 GMT-04:00" name="teardown" finished-at="2020-08-06T15:45:39 GMT-04:00" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.CheckingPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
