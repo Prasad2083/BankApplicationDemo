@@ -113,7 +113,7 @@
 <version>3.0.0-M5</version>
  <configuration>
 	 <suiteXmlFiles>
-  <suiteXmlFile>C:\Users\varaprasad\Documents\eclipse-workspace\CRMProject\src\test\resources\testng</suiteXmlFile>
+  <suiteXmlFile>C:\Users\varaprasad\Documents\eclipse-workspace\CRMProject\src\test\resources\testng.xml</suiteXmlFile>
         </suiteXmlFiles>
 </configuration>
 </plugin>
