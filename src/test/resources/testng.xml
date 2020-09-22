@@ -3,7 +3,7 @@
 <suite name=" CRMProject Test Automation Test Suite">
 
 	<listeners>
-		<listener class-name="Reports.ListenerClass">
+		<listener class-name="Reports.ListenerClass"></listener>
 	</listeners>
 
 
