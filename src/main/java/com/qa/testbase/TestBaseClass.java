@@ -30,7 +30,7 @@ public class TestBaseClass {
 	public TestBaseClass() throws IOException  {
 		prop =new Properties();
 		FileInputStream stream=null;
-        stream=new FileInputStream("C:\\Users\\varaprasad\\Documents\\eclipse-workspace\\CRMProject\\src\\main\\java\\com\\qa\\config\\config.properties");
+        stream=new FileInputStream("C:/Users/varaprasad/Documents/eclipse-workspace/CRMProject/src/main/java/com/qa/config/config.properties");
 		
 		prop.load(stream);	
 		
