@@ -34,8 +34,7 @@ public class SignUpPageTest extends TestBaseClass {
 	
 public Object[][] storedatainprovider(String Excelname, String testsheetname) throws IOException {
 		
-		ExcelPractice datalogin=new ExcelPractice("C:\\Users\\varaprasad\\Documents\\eclipse-workspace"
-				+ "\\CRMProject\\src\\main\\java\\com\\qa\\testdata\\Data_Driven_Practice.xlsx");
+	      ExcelPractice datalogin=new ExcelPractice(System.getProperty("user.dir")+"/src/main/java/com/qa/testdata/Data_Driven_Practice.xlsx");
 		
 		int rowcount=datalogin.getrowcount(sheetname);
 		int colcount=datalogin.getColumnCount(sheetname);
