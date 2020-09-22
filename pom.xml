@@ -101,20 +101,9 @@
 <version>3.8.1</version>
 
 <configuration>
-<compilerVersion>0.8</compilerVersion>
+<compilerVersion>1.8</compilerVersion>
 <source>1.8</source>
 <target>1.8</target>
-</configuration>
-</plugin>
-
-<plugin>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-surefire-plugin</artifactId>
-<version>3.0.0-M5</version>
- <configuration>
-	 <suiteXmlFiles>
-		 <suiteXmlFile>C:/Users/varaprasad/Documents/BankApplicationDemo/src/test/resources/testng.xml</suiteXmlFile>
-        </suiteXmlFiles>
 </configuration>
 </plugin>
 </plugins>
